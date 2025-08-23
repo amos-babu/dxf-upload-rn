@@ -11,10 +11,18 @@ export default function Index() {
       }}
     >
       <Text className="text-4xl my-3 font-rubik">Welcome to Restate</Text>
-      <Link href="/sign-in">Sign In</Link>
-      <Link href="/profile">Profile</Link>
-      <Link href="/images/1">Images</Link>
-      <Link href="/create">Create</Link>
+      <Link className="text-2xl font-rubik-light my-2" href="/sign-in">
+        Sign In
+      </Link>
+      <Link className="text-2xl font-rubik-light my-2" href="/profile">
+        Profile
+      </Link>
+      <Link className="text-2xl font-rubik-light my-2" href="/images/1">
+        Images
+      </Link>
+      <Link className="text-2xl font-rubik-light my-2" href="/create">
+        Create
+      </Link>
     </View>
   );
 }

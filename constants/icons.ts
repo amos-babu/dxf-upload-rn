@@ -9,5 +9,5 @@ export default {
   download,
   loading,
   upload,
-  profile,
+  profile
 };
