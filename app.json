@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "dxf-upload",
+    "name": "upload",
     "slug": "dxf-upload",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "dxfupload",
+    "scheme": "restate",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
