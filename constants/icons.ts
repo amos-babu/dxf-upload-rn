@@ -1,13 +1,11 @@
-import download from "@/assets/icons/download.svg";
-import home from "@/assets/icons/home.svg";
-import loading from "@/assets/icons/loading.svg";
-import profile from "@/assets/icons/profile.svg";
-import upload from "@/assets/icons/upload.svg";
+import download from "@/assets/icons/download.png";
+import home from "@/assets/icons/home.png";
+import profile from "@/assets/icons/profile.png";
+import upload from "@/assets/icons/upload.png";
 
 export default {
   home,
   download,
-  loading,
   upload,
-  profile
+  profile,
 };
