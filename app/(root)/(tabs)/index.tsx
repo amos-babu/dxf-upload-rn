@@ -11,7 +11,7 @@ export default function Index() {
       }}
     >
       <Text className="text-4xl my-3 font-rubik">Welcome to Restate</Text>
-      <Link className="text-2xl font-rubik-light my-2" href="/sign-in">
+      <Link className="text-2xl font-rubik-light my-2" href="/register">
         Sign In
       </Link>
       <Link className="text-2xl font-rubik-light my-2" href="/profile">
@@ -22,6 +22,9 @@ export default function Index() {
       </Link>
       <Link className="text-2xl font-rubik-light my-2" href="/create">
         Create
+      </Link>
+      <Link className="text-2xl font-rubik-light my-2" href="/login">
+        Login
       </Link>
     </View>
   );
