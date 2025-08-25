@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "upload",
+    "name": "Upload",
     "slug": "dxf-upload",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo/favicon-32x32.png",
+    "icon": "./assets/images/logo/apple-touch-icon.png",
     "scheme": "restate",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/logo/favicon-32x32.png",
+        "foregroundImage": "./assets/images/logo/apple-touch-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
