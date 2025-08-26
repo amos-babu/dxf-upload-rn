@@ -1,9 +1,8 @@
-const API_URL = process.env.API_URL;
+const API_URL = process.env.EXPO_PUBLIC_API_URL;
 // retrieve_files;
 
 const fetchPaginatedPosts = async () => {
-  const response = await fetch(`${API_URL}/retrieve_files`);
-  const posts = await response.json();
-  return response;
+  const response = await fetch(`${API_URL}/posts`);
+  return response.json();
 };
 export default fetchPaginatedPosts;
