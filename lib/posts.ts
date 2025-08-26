@@ -1,23 +1,9 @@
-import { useEffect, useState } from "react";
-
-const URL = "http://127.0.0.1:8000";
+const API_URL = process.env.API_URL;
 // retrieve_files;
 
-const fetchLatestFiles = () => {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState([]);
-
-  useEffect(() => {
-    const getFiles = () => {
-      try {
-        const response = fetch(`${URL}/retrieve_files`);
-        console.log(response);
-      } catch (error) {
-        console.log("Error", error);
-      }
-    };
-    getFiles();
-  }, []);
+const fetchPaginatedPosts = async () => {
+  const response = await fetch(`${API_URL}/retrieve_files`);
+  const posts = await response.json();
+  return response;
 };
-export default fetchLatestFiles;
+export default fetchPaginatedPosts;
