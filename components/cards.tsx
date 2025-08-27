@@ -1,10 +1,12 @@
+import { FilesProp } from "@/lib/types";
 import React from "react";
 import { Image, TouchableOpacity } from "react-native";
 interface Props {
   onPress?: () => void;
+  posts: FilesProp;
 }
 
-const Card = ({ onPress }: Props) => {
+const Card = ({ onPress, posts }: Props) => {
   return (
     <TouchableOpacity onPress={onPress} className="w-44 h-60">
       <Image
